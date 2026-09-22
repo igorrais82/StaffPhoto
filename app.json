@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "StaffPhoto",
+    "slug": "StaffPhoto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F3F6F4"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.staffphoto.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Нужен доступ к камере для фото сотрудника",
+        "NSPhotoLibraryUsageDescription": "Нужен доступ к галерее для выбора фото сотрудника"
+      }
+    },
+    "android": {
+      "package": "com.staffphoto.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#E4F2EB",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_MEDIA_IMAGES"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Приложению нужен доступ к галерее для выбора фото сотрудника",
+          "cameraPermission": "Приложению нужен доступ к камере для фото сотрудника"
+        }
+      ],
+      "expo-image"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

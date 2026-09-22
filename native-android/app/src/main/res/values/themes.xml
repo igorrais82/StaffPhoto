@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.StaffPhoto" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#1F6B4A</item>
+        <item name="colorPrimaryContainer">#E4F2EB</item>
+        <item name="android:statusBarColor">#1F6B4A</item>
+        <item name="android:navigationBarColor">#F3F6F4</item>
+        <item name="android:windowBackground">#F3F6F4</item>
+    </style>
+</resources>

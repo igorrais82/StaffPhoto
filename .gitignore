@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native Android build outputs
+.gradle/
+build/
+local.properties
+*.apk
+*.ap_
+*.aab
+.idea/
+captures/
+
+# Native secrets / signing
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro / logs
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS / env
+.DS_Store
+*.pem
+.env*.local
+*.tsbuildinfo
+
+# generated Expo native folders
+/ios
+/android

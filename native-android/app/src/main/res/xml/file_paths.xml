@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path
+        name="camera_cache"
+        path="camera/" />
+    <files-path
+        name="employee_photos"
+        path="employee-photos/" />
+</paths>
